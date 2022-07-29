@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/* top */
+section{
+    padding: 3% 5%;
+}
+.top,.third,.footer-about{
+    background-color: black;
+}
+.top nav{
+    margin-bottom: 5%;
+color:#f8f8ff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.top .list-items{
+    width: 45%;
+}
+nav ul li{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+nav img{
+    width: 70%;
+}
+nav ul li:hover{
+    color: crimson;
+}
+nav ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+.top-hero{
+    align-items: center;
+    display: flex;
+}
+.top-hero img{
+    width: 100%;
+}
+.top-hero .right h3{
+color: crimson;
+}
+.top-hero .image{
+    width: 70%;
+}
+.top-hero .right h1{
+    color: #f8f8ff;
+    font-size: 4em;
+}
+.top-hero .right p{
+    color: #8F8F8F;
+    width: 80%;
+    margin: 2% 0;
+}
+.top-hero .right button{
+    margin-top: 2% ;
+    font-size: 18px;
+    padding: 1% 2%;
+   color: #f8f8ff;
+   background-color: crimson;
+
+}
+.top-hero .right button:hover{
+       color: crimson;
+       background-color: transparent;
+
+}
+/* second */
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+.second h3{
+    color: crimson;
+    vertical-align: middle;
+}
+.second i{
+    font-size: 32px;
+    color: crimson;
+}
+.second h2{
+    color: ghostwhite;
+    font-size: 25px;
+    margin: 2% 0;
+}
+.second p{
+        color: #8F8F8F;
+
+}
+.second div{
+    background-color: #1E1E1E;
+    padding: 4% 0 2% 3%;
+    width: 28%;
+}
+.second h3 i{
+    vertical-align: sub;
+}
+.second div:hover i{
+
+    color:ghostwhite;
+}
+.second div:hover {
+    background-color: crimson;
+}
+.second div:hover h3{
+    color:ghostwhite;
+
+}
+.second div:hover p{
+    color:ghostwhite;
+
+}
+/* third */
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.third .left h1{
+    font-size: 5em;
+}
+.third h3{
+        color:ghostwhite;
+font-size: 2em;
+}
+.third .left{
+    text-align: center;
+    width: 40%;
+    padding: 5%;
+}
+.third .right{
+    width: 30%;
+}
+.third .right .top-right{
+    display: flex;
+    justify-content: space-between;
+}
+.third .right .bottom-right{
+    display: flex;
+    justify-content: space-between;
+}
+.third .right h1{
+    font-size: 3em;
+}
+.third h1{
+    color: #dc143c;
+}
+.right .bottom-right{
+    margin-top: 5%;
+}
+.third .right div{
+    background-color: #1E1E1E;
+    padding: 6%;
+}
+.third p{
+color: aliceblue;
+}
+/* four */
+.four{
+    margin: 5% 0;
+}
+.four .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.four .heading h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.four .heading button{
+    width: 15%;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0.5% 0;
+    color: #f8f8ff;
+    background-color: #dc143c;
+    border: 0;
+}
+.four .heading button:hover{
+color: #dc143c;
+background: transparent;
+}
+/* iamges */
+.iamges{
+    background-color:black;
+}
+.iamges img{
+    width: 100%;
+}
+.iamges .cards{
+    display: flex;
+}
+.iamges .cards .left{
+    width: 80%;
+}
+
+.cards .left,.right{
+      background-color: #1E1E1E;
+
+    margin: 1%;
+    padding: 3%;
+}
+.iamges h2{
+    margin-top: 10%;
+    color: #f8f8ff;
+}
+.iamges h3{
+    margin-top: 3%;
+    color: #dc143c;
+}
+.iamges h3 i{
+    vertical-align: sub;
+}
+.project {
+    padding: 7% ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.project  .left{
+    width: 60%;
+}
+.project button{
+    border: 0;
+    font-size: 1em;
+    width: 10%;
+    padding: 1%;
+    background-color: #dc143c;
+    color: #f8f8ff;
+}
+.project button:hover{
+    color: #dc143c;
+    background: transparent;
+}
+.project h1{
+    font-size: 2.5em;
+}
+.project p{
+    color: #8F8F8F;
+    margin-top: 3%;
+}
+.footer-about div{
+    width: 50%;
+    margin:  auto;
+}
+.footer-about div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-about div ul li{
+            color: #8F8F8F;
+
+    text-transform: uppercase;
+}
+/* footer */
+.footer{
+        background-color: #1E1E1E;
+
+}
+.footer-content{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content i{
+    color: #f8f8ff;
+    font-size: 1.5em;
+    margin: 0 10%;
+    
+}
+.footer-content .icons{
+    width: 30%;
+}
+.footer-content img{
+    width: 70%;
+}
