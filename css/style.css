@@ -27,6 +27,9 @@ nav ul li{
 nav img{
     width: 70%;
 }
+nav h1{
+    display: none;
+}
 nav ul li:hover{
     color: crimson;
 }
@@ -34,19 +37,21 @@ nav ul{
     list-style: none;
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 .top-hero{
     align-items: center;
     display: flex;
 }
 .top-hero img{
-    width: 100%;
+    width: 80%;
 }
 .top-hero .right h3{
 color: crimson;
 }
 .top-hero .image{
-    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 .top-hero .right h1{
     color: #f8f8ff;
@@ -120,6 +125,7 @@ color: crimson;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .third .left h1{
     font-size: 5em;
@@ -130,11 +136,11 @@ font-size: 2em;
 }
 .third .left{
     text-align: center;
-    width: 40%;
+    /* width: 40%; */
     padding: 5%;
 }
 .third .right{
-    width: 30%;
+    /* width: 30%; */
 }
 .third .right .top-right{
     display: flex;
@@ -154,8 +160,8 @@ font-size: 2em;
     margin-top: 5%;
 }
 .third .right div{
-    background-color: #1E1E1E;
-    padding: 6%;
+    /* background-color: #1E1E1E; */
+    padding: 2%;
 }
 .third p{
 color: aliceblue;
@@ -168,16 +174,18 @@ color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
-.four .heading h1{
+.four .heading .text h1{
     font-size: 2.5em;
     text-transform: uppercase;
 }
 .four .heading button{
-    width: 15%;
-    font-size: 20px;
+    /* width: 15%; */
+    margin-top: 2%;
+    font-size: 17px;
     text-transform: uppercase;
-    padding: 0.5% 0;
+    padding: 1% 2%;
     color: #f8f8ff;
     background-color: #dc143c;
     border: 0;
@@ -195,6 +203,7 @@ background: transparent;
 }
 .iamges .cards{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 .iamges .cards .left{
     width: 80%;
@@ -229,8 +238,8 @@ background: transparent;
 .project button{
     border: 0;
     font-size: 1em;
-    width: 10%;
-    padding: 1%;
+    /* width: 10%; */
+    padding: 1% 2%;
     background-color: #dc143c;
     color: #f8f8ff;
 }
@@ -253,6 +262,7 @@ background: transparent;
     list-style: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .footer-about div ul li{
             color: #8F8F8F;
@@ -272,13 +282,60 @@ background: transparent;
 }
 .footer-content i{
     color: #f8f8ff;
-    font-size: 1.5em;
-    margin: 0 10%;
+    font-size: 1.3em;
     
 }
+.footer-content .bi-twitter{
+margin: 0 10%;
+}
 .footer-content .icons{
-    width: 30%;
+    text-align: end;
+    width: 60%;
 }
 .footer-content img{
-    width: 70%;
+    width: 50%;
+}
+@media only screen and (max-width: 600px){
+nav h1{
+    display: unset;
+    font-size: 1.5em;
+}
+nav .list-items{
+    display: none;
+}
+nav img{
+    width: 50%;
+}
+.top-hero{
+    flex-direction: column;
+}
+.top-hero img{
+    margin-bottom: 3%;
+}
+.top-hero .right h1{
+    font-size: 2.8em;
+}
+.second div{
+    margin: 1% 0;
+    width: auto;
+}
+.second{
+    flex-wrap: wrap;
+}
+.four .heading .text h1{
+    font-size: 1.6em;
+}
+.iamges .cards{
+    flex-wrap: wrap;
+}
+.project  .left{
+    width: auto;
+    margin-bottom: 2%;
+}
+.project{
+    flex-wrap: wrap;
+}
+.project h1{
+    font-size: 1.8em;
+}
 }
